@@ -1,0 +1,371 @@
+body {
+  font: 100% "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #676767;
+}
+.delPaddLt {
+  padding-left: 0;
+}
+.delPaddAll {
+  padding: 0;
+}
+.p-maincontent, .m-maincontent {
+  margin-top: 8%;
+  margin-bottom: 2.5%;
+  padding: 0.9%;
+}
+.intro {
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  padding: 2% 2%;
+  font-size: 3.8em;
+  background-color: #0775aa;
+  color: white;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+.mColor {
+  background-color: #563e96;
+}
+.treatmentAdvice {
+  margin: 6% 0 5%;
+  border-top: 3px solid #0775aa;
+}
+.mTreatmtAdvice {
+  border-top: 3px solid #563e96;
+}
+.eTreatmtAdvice {
+  border-top: 3px solid #563e96;
+}
+.p-main-title {
+  margin-bottom: 3%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);/* IE 9 */
+  -webkit-transform: translate(0, -50%); /* Safari and Chrome */
+}
+.pMainTitle {
+  background-color: white;
+  height: 140px;
+  width: 140px;
+  margin: 0 auto;
+  padding: 1.8%;
+}
+.pMainTitle img {
+  width: 100%;
+  height: auto;
+}
+.pMainText {
+  margin-top: -9%;
+  padding: 2% 0;
+  text-align: center;
+  white-space: pre-line;
+  font-size: 2em;
+}
+.mMainText {
+  color: #563e96;
+  padding: 0;
+}
+.pMainContent {
+  margin-top: 2%;
+}
+.imgContai1, .imgContai1Text {
+  height: 427px;
+}
+.imgContai1 img {
+  width: 100%;
+  height: 100%;
+}
+.imgContai1Text {
+  font-size: 2em;
+  padding: 30px;
+  letter-spacing: 5px;
+  line-height: 2;
+  background-color: #eef7fc;
+}
+.pMain-line {
+  width: 20%;
+  height: 4px;
+  background-color: #0775aa;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.textLine {
+  color: #4f5b69;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 60px; 
+}
+.pMainContentLast {
+  margin-top: 5%;
+}
+.textLineExp {
+  background-color: #fff;
+  color: #4f5b69;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, .3);
+  padding: 35px;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  line-height: 180%;
+  margin-bottom: 80px;
+}
+.imgLineExp {
+  position: relative;
+  z-index: 4;
+}
+.imgLineExp-img{
+  position: absolute;
+  top: -80px;
+  left: 100px;
+  width: 60%;
+}
+.imgLineExp-img img{
+  width: 100%;
+  height: auto;
+}
+.imgContai2 {
+  position: absolute;
+  z-index: 5;
+  top: -80px;
+  right: 10%;
+  width: 70%;
+}
+.imgContai2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* medicalResource */
+.mColor {
+  background-color: #563e96;
+}
+.eImgContai1 {
+  height: 630px;
+}
+.eImgContai1Text {
+  height: 700px;
+  white-space: pre-line;
+  color: white;
+  background-color: #563e96;
+}
+.eimgLineExp {
+  position: absolute;
+  z-index: 5;
+  top: -60px;
+  right: 0;
+  width: 35%;
+  margin-bottom: 10px;
+}
+.eimgLineExp img {
+  width: 100%;
+  height: auto;
+}
+/* medicalResource */
+
+/* 大于993px-start */
+@media (min-width:993px) and (max-width:1200px) {
+  .intro {
+    font-size: 3em;
+  }
+  .treatmentAdvice {
+    border-top: 2px solid #017f4f;
+  }
+  .imgContai1, .imgContai1Text {
+    height: 400px;
+  }
+  .imgContai1Text {
+    font-size: 1.74em;
+  }
+  .textLineExp {
+    width: 90%;
+    font-size: 1.6em;
+    line-height: normal;
+  }
+  .imgLineExp-img{
+  top: -60px;
+  left: 100px;
+  width: 60%;
+}
+  .p-maincontent, .m-maincontent {
+    margin-top: 3%;
+  }
+
+  /* medicalResource */
+  .eImgContai1 {
+    height: 430px;
+  }
+  .eImgContai1Text {
+    height: 520px;
+    line-height: normal;
+    white-space: pre-line;
+    color: white;
+    background-color: #563e96;
+  }
+  /* medicalResource */
+}
+
+/* 大于993px-end */
+
+/* 大于768px-start */
+@media (min-width:768px) and (max-width:993px) {
+  .intro {
+    font-size: 2.2em;
+  }
+  .treatmentAdvice {
+    border-top: 1px solid #017f4f;
+  }
+  .pMainTitle {
+    height: 100px;
+    width: 100px;
+    padding: 1.8%;
+  }
+  .p-maincontent, .m-maincontent {
+    margin-top: 3%;
+  }
+  .imgContai1, .imgContai1Text {
+    height: 320px;
+  }
+  .imgContai1Text {
+    font-size: 1.25em;
+  }
+  .imgContai2 {
+    top: -80px;
+    right: 20%;
+    width: 80%;
+  }
+  .textLineExp {
+    width: 90%;
+    font-size: 1.6em;
+    line-height: normal;
+  }
+  .imgLineExp-img{
+  top: -40px;
+  left: 100px;
+  width: 80%;
+}
+  /* medicalResource */
+  .eImgContai1 {
+    height: 400px;
+  }
+  .eImgContai1Text {
+    height: 450px;
+    line-height: normal;
+    white-space: pre-line;
+    color: white;
+    background-color: #563e96;
+  }
+  /* medicalResource */
+}
+
+/* 大于768 px-end */
+
+/* 小于768px-start */
+@media (max-width:767px) {
+  .intro {
+    margin: 3% 0;
+    font-size: 1.9em;
+  }
+  .treatmentAdvice {
+    margin: 10% 0 5%;
+  }
+  .p-maincontent, .m-maincontent {
+    margin-top: -2%;
+  }
+  .p-main-title {
+    margin-bottom: 1%;
+  }
+  .pMainTitle {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+  }
+  .pMainText {
+    padding: 1%;
+    margin-top: -45px;
+    font-size: 1.5em;
+  }
+  .delPaddLt {
+    padding: 0;
+  }
+  .delPaddAll {
+    padding: 10px;
+  }
+  .imgContai1, .imgContai1Text {
+    width: 100%;
+    height: auto;
+  }
+  .imgContai1Text {
+    padding: 0 2% 3%;
+    font-size: 1.5em;
+    letter-spacing: normal;
+    line-height: 1.6;
+  }
+  .imgContai1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pMain-line {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .textLine {
+    margin-bottom: 30px;
+    letter-spacing: normal;
+    padding: 0 10px;
+    font-size: 1.5em;
+  }
+  .imgContai2 {
+    top: 15px;
+    right: 20%;
+    width: 60%;
+  }
+  .imgLineExp-img{
+  top: 20%;
+    left: 20%;
+    width: 60%;
+}
+  .textLineExp {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-left: 10px;
+  }
+
+  /* medicalResource */
+  .eImgContai1 {
+    height: 380px;
+  }
+  .eImgContai1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .eImgContai1Text {
+    height: 320px;
+    line-height: normal;
+    white-space: pre-line;
+    color: white;
+    background-color: #563e96;
+  }
+  .delPaddPhone {
+    padding: 0 15px;
+  }
+  .eimgLineExp {
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 0 1%;
+  }
+  .eimgLineExp img {
+    width: 100%;
+    height: auto;
+  }
+  .ePhone {
+    margin-top: 123%;
+  }
+  /* medicalResource */
+}
+
+/* 小于768 px-end */

@@ -1,0 +1,468 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix') format('eot'), url('../fonts/fontawesome-webfont.woff2') format('woff2'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font: 100% "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.delPaddAll {
+  padding-left: 0;
+  padding-right: 0;
+}
+.delPaddLt {
+  padding-left: 0;
+  padding-right: 3px;
+}
+.delPaddRt {
+  padding-right: 0;
+}
+.delMargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+.logo-div {
+  text-align: center;
+}
+.logo {
+  display: block;
+  height: 70px;
+  line-height: 70px;
+}
+.form-section{
+  display: none;
+}
+.current_p{
+  display: block;
+}
+.option-1, .option-2, .option-3 {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+.option-1 {
+  padding-right: 1px;
+}
+.option-2 {
+  padding-right: 1px;
+}
+.optionActive {
+  margin-top: -5px;
+  height: 45px;
+  line-height: 45px;
+}
+.medical-form {
+  position: relative;
+  padding-bottom: 20px;
+}
+.medical-form-1 {
+  border-bottom: 1px solid #017f4f; /* 专家医疗意见表单显示颜色 */
+}
+.medical-form-2 {
+  border-bottom: 1px solid #0775aa; /* 专家医疗意见表单显示颜色 */
+}
+.medical-form-3 {
+  border-bottom: 1px solid #9d3373; /* 专家医疗意见表单显示颜色 */
+}
+.medical-form-4 {
+  border-bottom: 1px solid #563e96; /* 专家医疗意见表单显示颜色 */
+}
+.formTitle {
+  margin-bottom: 10px;
+}
+.control-label {
+  margin-top: 1%;
+  text-align: center;
+}
+.form-horizontal label.preLine {
+  white-space: pre-line;
+}
+.form-horizontal .control-label {
+  text-align: center;
+}
+.form-horizontal .form-group {
+  margin-right: 0;
+  margin-left: 0;
+}
+.patientSex-M, .patientSex-F, .relaYes, .relaNo{
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  cursor: pointer;
+}
+.patientSex-M, .relaYes {
+  margin-right: 2px;
+}
+.patientSex-F, .realNo {
+  margin-left: 2px;
+}
+.formNav {
+  position: absolute;
+  bottom: -60px;
+  height: 40px;
+  padding: 0 15px;
+}
+.back-to-home, .btnBack, .btnNext, .btnSubmit {
+  width: 100px;
+  color: white !important;
+}
+.form-horizontal label {
+  white-space: nowrap;
+}
+.address-details {
+  margin-top: 15px;
+}
+.hideCheckBox {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.selectTime {
+  border-radius: 0;
+/*  line-height: 34px;*/
+  text-align: center;
+  color: white!important;
+  cursor: pointer;
+}
+.selectTime input {
+  border: none;
+  height: 0;
+  width: 0;
+}
+.formLastTitle {
+  padding: 5px 15px 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.info-details {
+  min-height: 100px;
+  overflow: hidden;
+}
+#doctor-info {
+  display: none;
+}
+.form1-only {
+  display: none;
+}
+.medical-form-1 .form1-only {
+  display: block;
+}
+.LiceAccept {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  background-color: #caecfc;
+}
+.LiceAccept-mask {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(155, 155, 155, .5);
+}
+.LiceAccept-cont {
+  position: fixed;
+  width: 60%;
+  left: 18%;
+}
+.LiceAccept-cont-header {
+  height: 60px;
+  line-height: 60px;
+  background-color: #cef2e4;
+  font-size: 2em;
+  color: #017f4f;
+  padding-left: 40px;
+  font-weight: 700;
+}
+.LiceAccept-cont-text {
+  position: relative;
+  min-height: 450px;
+  overflow: auto;
+  padding: 40px;
+  text-indent: 2em;
+  text-align: justify;
+  background-color: white;
+}
+.lince {
+  position: absolute;
+  margin-bottom: 40px;
+  margin-right: 35px;
+}
+.lincesClose:before {
+  content: "\f00d";
+  font-family: "FontAwesome";
+  speak: none;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lincesClose {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 1000;
+  color: #0089c9;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+.lincesClose:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.form-feedback-wrapper{
+  display: none; 
+   top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.form-feedback-wrapper-phone{
+  position: fixed;
+}
+.form-feedback-wrapper-index{
+  position: absolute;
+  z-index: 25;
+  top: -30px;
+  width: 100%;
+  height: 150%;
+}
+.form-feedback{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  font-size: 2.2em;
+  font-weight: 600;
+  color: red;
+  text-align: center;
+}
+.form-feedback-p{
+  margin-bottom: 50px;
+}
+.form-feedback-btn{
+  font-size: 18px;
+  color: white;
+  padding: 10px 18px;
+}
+.form-feedback-btn:hover{
+  color: white;
+}
+/* validate */
+.error{
+  border: 1px solid red !important;
+}
+.user-time-error .error, .contract-check-error .error{
+  margin-left: 15px;
+  color: red;
+  border: none !important;
+}
+.LiceAccept label.error {
+  position: absolute;
+  top: 35px;
+}
+.timeSelect_index{
+  margin-top: -20px;
+}
+/* validate */
+/* 医疗意见表单颜色 */
+.medical-form-1 .option1, .medical-form-1 .option2,
+.medical-form-1 .option3, .medical-form-1 .patientSex-M,
+.medical-form-1 .patientSex-F,.medical-form-1 .relaYes,
+.medical-form-1 .relaNo, .medical-form-1 .back-to-home,
+.medical-form-1 .btnBack, .medical-form-1 .btnNext,
+.medical-form-1 .btnSubmit, .medical-form-1 .selectTime,
+.medical-form-1 .backGd{
+  background-color: #52cc9d;
+}
+.medical-form-1 .optionActive, .medical-form-1 .patientSexActive, 
+.medical-form-1 .timeSelect_phone input[type="checkbox"]:checked + span,
+.medical-form-1 .timeSelect_index input[type="checkbox"]:checked + span, 
+.medical-form-1 .form-indi.completed,
+.medical-form-1 .form-feedback-btn {
+  background-color: #017f4f;
+}
+.medical-form-1 .dropdown-menu>li>a, .medical-form-1 .formLastTitle, 
+.doctor-checkbox, .medical-form-1 .LiceAccept-cont-text,
+.medical-form-1 .form-feedback-p{
+  color: #017f4f;
+}
+.medical-form-1 .LiceAccept-cont-header{
+  background-color: #cef2e4;
+  color: #017f4f;
+}
+/* 私人健康顾问表单颜色 */
+.medical-form-2 .option1, .medical-form-2 .option2,
+.medical-form-2 .option3, .medical-form-2 .patientSex-M, 
+.medical-form-2 .patientSex-F, .medical-form-2 .relaYes, 
+.medical-form-2 .relaNo, .medical-form-2 .back-to-home, 
+.medical-form-2 .btnBack, .medical-form-2 .btnNext, 
+.medical-form-2 .btnSubmit, .medical-form-2 .selectTime,
+.medical-form-2 .backGd {
+  background-color: #1ba9f5;
+}
+.medical-form-2 .optionActive, .medical-form-2 .patientSexActive, 
+.medical-form-2 .timeSelect_phone input[type="checkbox"]:checked + span, 
+.medical-form-2 .timeSelect_index input[type="checkbox"]:checked + span,
+.medical-form-2 .form-indi.completed,
+.medical-form-2 .form-feedback-btn {
+  background-color: #0775aa;
+}
+.medical-form-2 .control-label, .medical-form-2 .form-control, 
+.medical-form-2 .formLastTitle, .medical-form-2 .LiceAccept-cont-text,
+.medical-form-2 .form-feedback-p {
+  color: #0775aa;
+}
+.medical-form-2 .form-control {
+  border-color: #0775aa;
+}
+.medical-form-2 .LiceAccept-cont-header{
+  background-color: #caecfc;
+  color: #0775aa;
+}
+/* 压力管理表单颜色 */
+.medical-form-3 .option1, .medical-form-3 .option2, 
+.medical-form-3 .option3, .medical-form-3 .patientSex-M, 
+.medical-form-3 .patientSex-F, .medical-form-3 .relaYes, 
+.medical-form-3 .relaNo, .medical-form-3 .back-to-home, 
+.medical-form-3 .btnBack, .medical-form-3 .btnNext, 
+.medical-form-3 .btnSubmit, .medical-form-3 .selectTime,
+.medical-form-3 .backGd {
+  background-color: #e645a5;
+}
+.medical-form-3 .optionActive, .medical-form-3 .patientSexActive, 
+.medical-form-3 .timeSelect_phone input[type="checkbox"]:checked + span, 
+.medical-form-3 .timeSelect_index input[type="checkbox"]:checked + span,
+.medical-form-3 .form-indi.completed,
+.medical-form-3 .form-feedback-btn {
+  background-color: #9d3373;
+}
+.medical-form-3 .control-label, .medical-form-3 .form-control, 
+.medical-form-3 .formLastTi, .medical-form-3 .LiceAccept-cont-text,
+.medical-form-3 .form-feedback-p {
+  color: #9d3373;
+}
+.medical-form-3 .LiceAccept-cont-header{
+  background-color: #f2cee4;
+  color: #9d3373;
+}
+.medical-form-3 .form-control {
+  border-color: #9d3373;
+}
+.timeSelect_phone label, .timeSelect_index label{
+  width: 100%;
+}
+.backGd{
+  color: white !important;
+}
+.timeSure{
+  width: 80%;
+  margin: 30px auto;
+}
+.timeSelect_phone{
+  position: absolute;
+  /*display: none;*/
+  opacity: 0;
+  left: -9999em;
+  padding: 35px 0 0;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+}
+/* 医疗资源推荐表单颜色 */
+.medical-form-4 .option1, .medical-form-4 .option2, 
+.medical-form-4 .option3, .medical-form-4 .patientSex-M, 
+.medical-form-4 .patientSex-F, .medical-form-4 .relaYes, 
+.medical-form-4 .relaNo, .medical-form-4 .back-to-home, 
+.medical-form-4 .btnBack, .medical-form-4 .btnNext, 
+.medical-form-4 .btnSubmit, .medical-form-4 .selectTime,
+.medical-form-4 .backGd {
+  background-color: #8b5ef5;
+}
+.medical-form-4 .optionActive, .medical-form-4 .patientSexActive, 
+.medical-form-4 .timeSelect_phone input[type="checkbox"]:checked + span, 
+.medical-form-4 .timeSelect_index input[type="checkbox"]:checked + span,
+.medical-form-4 .form-indi.completed,
+.medical-form-4 .form-feedback-btn {
+  background-color: #563e96;
+}
+.medical-form-4 .control-label, .medical-form-4 .form-control, 
+.medical-form-4 .formLastTitle, .medical-form-4 .LiceAccept-cont-text,
+.medical-form-4 .form-feedback-p {
+  color: #563e96;
+}
+.medical-form-4 .form-control {
+  border-color: #563e96;
+}
+.medical-form-4 .LiceAccept-cont-header{
+  background-color: #e1d7fc;
+  color: #563e96;
+}
+/* 日历插件-专家医疗意见 */
+.medical-form-1 .dtpicker-buttonCont .dtpicker-button, .medical-form-1 .dtpicker-buttonCont .dtpicker-button {
+  background: #017f4f;
+}
+.medical-form-1 .dtpicker-header .dtpicker-value, .medical-form-1 .dtpicker-components .dtpicker-comp>*, .medical-form-1 .dtpicker-header .dtpicker-close {
+  color: #017f4f;
+}
+
+/* 日历插件-私人健康顾问 */
+.medical-form-2 .dtpicker-buttonCont .dtpicker-button, .medical-form-2 .dtpicker-buttonCont .dtpicker-button {
+  background: #0775aa;
+}
+.medical-form-2 .dtpicker-header .dtpicker-value, .medical-form-2 .dtpicker-components .dtpicker-comp>*, .medical-form-2 .dtpicker-header .dtpicker-close {
+  color: #0775aa;
+}
+
+/* 日历插件- 压力管理 */
+.medical-form-3 .dtpicker-buttonCont .dtpicker-button, .medical-form-3 .dtpicker-buttonCont .dtpicker-button {
+  background: #9d3373;
+}
+.medical-form-3 .dtpicker-header .dtpicker-value, .medical-form-3 .dtpicker-components .dtpicker-comp>*, .medical-form-3 .dtpicker-header .dtpicker-close {
+  color: #9d3373;
+}
+
+/* 日历插件-医疗资源推荐 */
+.medical-form-4 .dtpicker-buttonCont .dtpicker-button, .medical-form-4 .dtpicker-buttonCont .dtpicker-button {
+  background: #563e96;
+}
+.medical-form-4 .dtpicker-header .dtpicker-value, .medical-form-4 .dtpicker-components .dtpicker-comp>*, .medical-form-4 .dtpicker-header .dtpicker-close {
+  color: #563e96;
+}
+.medical-form spaan.selectTime {
+  color: white;
+}
+@media (max-width:768px) {
+  .formLastTitle {
+    text-align: justify;
+  }
+  .formLastTitle {
+    font-size: 1em;
+  }
+  .LiceAccept-cont {
+    width: 90%;
+    left: 5%;
+  }
+  .LiceAccept-cont-text {
+    padding: 10px;
+  }
+  .lince {
+    margin-right: 10px;
+}
+}
+.form-section {
+  display: none;
+}
+.form-section.active {
+  display: block;
+}

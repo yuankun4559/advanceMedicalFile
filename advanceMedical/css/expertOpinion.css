@@ -1,0 +1,805 @@
+body {
+  font: 100% "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #676767;
+}
+.e-maincontent {
+  padding: 0.9%;
+}
+.intro {
+  text-align: center;
+  width: 18%;
+  padding: 1.75% 0;
+  font-size: 3em;
+  background-color: #017f4f;
+  color: white;
+}
+.treatmentAdvice {
+  margin: 6% 0 5%;
+  border-top: 3px solid #017f4f;
+}
+.e-main-title {
+  text-align: center;
+  margin-bottom: 3%;
+  transform: translate(0, -60%);
+  -ms-transform: translate(0, -60%);/* IE 9 */
+  -webkit-transform: translate(0, -60%); /* Safari and Chrome */
+}
+.eMainTitle {
+  background-color: white;
+  padding: 2%;
+  font-size: 3.5em;
+}
+.teatmtAdviceList {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.img-div, .imgText-div {
+  padding: 0 1%;
+}
+.img-div img {
+  width: 75%;
+  height: auto;
+}
+.imgText-title {
+  display: block;
+  color: #017f4f;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 20px -15px 10px;
+}
+.imgText-info {
+  display: block;
+  text-align: center;
+  padding: 0 1%;
+  color: #017f4f;
+  white-space: pre-line;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.expertExamp-Ep1, .expertExamp {
+  position: relative;
+  z-index: 9;
+  min-height: 50px;
+  overflow: hidden;
+}
+.expertExamp {
+  margin-top: 5%;
+  text-align: center;
+}
+.expertExampHt {
+  height: 400px;
+}
+.expertExamp-Ep1 img, .expertExamp-Ep2 img {
+  width: 100%;
+  height: auto;
+}
+.expertEx-Ep1-info {
+  position: absolute;
+  z-index: 10;
+  width: 60%;
+  padding: 2%;
+  top: 6.5%;
+  left: 0;
+  color: #017f4f;
+  text-align: center;
+  line-height: 25px;
+  font-size: 1.6em;
+}
+.expertExEp1InfoHd, .expertExEp1InfoFt {
+  display: block;
+}
+.expertExEp1InfoHd {
+  font-weight: 700;
+}
+.expertExEp1InfoFt {
+  white-space: pre-wrap;
+}
+.expertList {
+  float: left;
+  height: 300px;
+  padding: 2% 0 2%;  /*margin-bottom: 5px;*/
+  cursor: pointer;
+  transition: background .7s ease-out; /* 设置背景动画为1s */
+  -webkit-transition: background .7s ease-out; /* Safari */
+}
+.Overseas{
+  cursor: pointer;
+}
+.expertList {
+  width: 20%;
+}
+.Overseas .expertDetails {
+  margin-top: -15%;
+}
+.expertList-1 {
+  display: none;
+}
+.expertImg {
+  width: 70.269%;
+  margin: 0 14%;
+  transition: transform .5s;
+  -webkit-transition: transform .5s;
+}
+.expImgPhone {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.expImgPhone img {
+  width: 100%;
+  height: auto;
+  transition: transform .5s;
+  -webkit-transition: transform .5s;
+}
+.expertImg img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.expertInfo {
+  margin-top: 10%;
+  text-align: center;
+}
+.expertDetails {
+  margin-top: -20%;
+  min-height: 100px;
+  overflow: hidden;
+  text-align: center;
+  opacity: 0;
+  white-space: pre-line;
+}
+.Ename {
+  display: block;
+  font-weight: 700;
+  white-space: nowrap;  /*margin-bottom: 10px;*/
+}
+.Einfo {
+  display: block;
+  padding: 0 6px;
+}
+.EinfoFtSz {
+  font-size: 1.5em;
+  margin-top: -1.6%;
+}
+.medicalAdvtg {
+  display: block;
+  color: #017f4f;
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-bottom: 2.5%;
+  white-space: pre-line;
+}
+.expertExamp-hr {
+  border-bottom: 1px solid #017f4f;
+}
+.delPadd {
+  padding: 0;
+}
+.medicalAdvtg1-div {
+  min-height: 120px;
+}
+.medicalAdvtg1 {
+  position: absolute;
+  top: 18px;
+  left: 18%;
+  max-height: 120px;
+  padding: 8% 10% 1%;
+  color: white;
+  white-space: nowrap;
+  background-color: #017f4f;
+}
+.percent {
+  font-size: 2.3em;
+  font-weight: 500;
+  padding-right: 20%;
+  margin: 0;
+}
+.percentNum {
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
+  font-size: 3em;
+}
+.percentEglsh {
+  font-size: 2em;
+  margin: 0;
+}
+.medicalAdvtg2 {
+  position: absolute;
+  left: 0;
+  font-size: 2.3em;
+  padding: 2% 5%;
+  border: 2px solid #017f4f;
+  background-color: white;
+}
+.medicalAdvtg2-div img {
+  width: 95%;
+  height: auto;
+}
+.circle {
+  position: absolute;
+  color: white;
+  text-align: left;
+}
+.circle  span {
+  display: block;
+  font-size: 1.7em;
+}
+.circ-Title {
+  margin-bottom: 0;
+  font-size: 2.2em;
+  font-weight: 500;
+}
+.pullRight {
+  text-align: right;
+}
+.circle1 {
+  top: 20%;
+  left: 30%;
+  width: 40%; 
+}
+.circle2 {
+  top: 60%;
+  left: 5%;
+  width: 38%; 
+}
+.circle3 {
+  top: 63%;
+  left: 53%;
+  width: 40%; 
+}
+.Treatment, .TreatmentAfter{
+  position: relative;
+  font-size: 1.5em;
+  margin: 0 20px;
+  color: white;
+}
+.Treatment{
+  min-height: 500px; 
+  overflow: visible;
+}
+.TreatmentAfter{
+  height: 100px;
+}
+.odd {
+  background-color: #017f4f;
+}
+.even {
+  background-color: #52cc9d;
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11 {
+  position: absolute;
+  padding: 30px 1% 3%;
+}
+.num1, .num2, .num3, .num4, .num5, .num6, .num7, .num8, .num9, .num10, .num11 {
+  position: absolute;
+  z-index: 11;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid white;
+  text-align: center;
+  line-height: 30px;
+}
+.num1, .num3, .num5, .num7, .num9, .num10, .num11{
+   left: -15px;
+  top: -15px;
+}
+.div1 {
+  top: 34%;
+  left: 0;
+  width: 20%;
+  padding-bottom: 6%;
+}
+.div2 {
+  top: 26%;
+  left: 20%;
+  width: 20%;
+}
+.div3 {
+  top: 18%;
+  left: 40%;
+  width: 20%;
+}
+.div4 {
+  top: 10%;
+  left: 60%;
+  width: 20%;
+}
+.div5 {
+  top: 30%;
+  left: 75%;
+  width: 25%;
+  padding: 5% 1%;
+}
+.div6 {
+  top: 44%;
+  left: 59%;
+  width: 16%;
+  padding: 2%;
+}
+.div7 {
+  top: 52%;
+  left: 45%;
+  width: 14%;
+}
+.div8 {
+  top: 59%;
+  left: 0;
+  width: 45%;
+}
+.div9 {
+  top:0;
+  left: 0;
+  width: 32%;
+}
+.div10 {
+  top:0;
+  left: 34%;
+  width: 32%;
+}
+.div11 {
+ top:0;
+  left: 68%;
+  width: 32%;
+}
+/* 大于1200px-end */
+@media (min-width:1200px) {
+
+  /*专列表hover事件家 */
+  .expertList:hover, .Overseas:hover {
+    background-color: rgba(1, 127, 79, .8);
+  }
+  .expertList:hover .expertInfo, .Overseas:hover .expertInfo {
+    opacity: 0;
+  }
+  .expertList:hover .expertImg, .Overseas:hover .expImgPhone {
+    opacity: 0.3;
+    transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6); /* IE 9 */
+    -webkit-transform: scale(0.6, 0.6); /* Safari and Chrome */
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+  }
+  .expertList:hover .expertDetails, .Overseas:hover .expertDetails {
+    opacity: 1;
+    color: white;
+  }
+  /*专列表hover事件家 */
+  .medicalAdvtg2-div {
+    min-height: 670px;
+  }
+  .num1, .num2, .num3, .num4, .num5, .num6, .num7, .num8, .num9, .num10, .num11{
+    left: -20px;
+  top: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .num2, .num4, .num6, .num8{
+  left: -15px;
+  top: -15px;
+}
+  
+}
+
+/* 大于1200px */
+
+/* 大于993px，小于1200px */
+@media (min-width:933px) and (max-width:1200px) {
+  .intro {
+    font-size: 2em;
+  }
+  .imgText-title {
+    font-size: 2em;
+  }
+  .expertEx-Ep1-info {
+    width: 70%;
+    padding: 2%;
+    line-height: 22px;
+    font-size: 1.3em;
+  }
+  .expertExEp1InfoFt {
+    margin-top: -3%;
+  }
+  .expertList {
+    width: 33.33%
+  }
+  .expertImg {
+    width: 44%;
+    margin: 0 27.5%;
+  }
+  .expertList, .Overseas {
+    font-size: 1.4em;
+  }
+  .EinfoFtSz {
+    font-size: 1em;
+  }
+
+  /* 专家列表的hover事件 */
+  .expertList:hover, .Overseas:hover {
+    background-color: rgba(1, 127, 79, .8);
+  }
+  .expertList:hover .expertInfo, .Overseas:hover .expertInfo {
+    opacity: 0;
+  }
+  .expertList:hover .expertImg {
+    opacity: 0.3;
+    transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7); /* IE 9 */
+    -webkit-transform: scale(0.7, 0.7); /* Safari and Chrome */
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+  }
+  .Overseas:hover .expImgPhone {
+    opacity: 0.3;
+    transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7); /* IE 9 */
+    -webkit-transform: scale(0.7, 0.7); /* Safari and Chrome */
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+  }
+  .expertList:hover .expertDetails, .Overseas:hover .expertDetails {
+    color: white;
+    opacity: 1;
+  }
+
+  /* 专家列表的hover事件 */
+  .percentNum {
+    right: 14%;
+  }
+  .medicalAdvtg1 {
+    top: 25px;
+    padding: 6.5% 15% 1%;
+  }
+  .medicalAdvtg2-div {
+    height: 600px;
+  }
+  .circle1 {
+    top: 20%;
+  }
+  .circle2 {
+    top: 55%;
+  }
+  .circle3 {
+    top: 60%;
+  }
+  .num2, .num4, .num6, .num8{
+  left: -15px;
+  top: -15px;
+}
+}
+
+/* 大于993px，小于1200px-end */
+
+/* 大于768px，小于993px */
+@media (min-width:768px) and (max-width:993px) {
+  .intro {
+    font-size: 2em;
+  }
+  .eMainTitle {
+    font-size: 2.5em;
+  }
+  .img-div img {
+    width: 45%;
+    height: auto;
+  }
+  .expertEx-Ep1-info {
+    width: 70%;
+    padding: 2%;
+    line-height: 22px;
+    font-size: 1.3em;
+  }
+  .expertExEp1InfoFt {
+    margin-top: -3%;
+  }
+  .expertList {
+    width: 33.33%;
+    height: 250px;
+  }
+  .expertImg {
+    width: 47.263%;
+    margin: 0 25.5%;
+  }
+  .Overseas .expertDetails {
+    font-size: 1em;
+    margin-top: -20%;
+  }
+  .EinfoFtSz {
+    font-size: 9px;  /*margin-top: 1.6%;*/
+  }
+
+  /* 专家列表的hover事件 */
+  .expertList:hover, .Overseas:hover {
+    background-color: rgba(1, 127, 79, .8);
+  }
+  .expertList:hover .expertInfo, .Overseas:hover .expertInfo {
+    opacity: 0;
+  }
+  .expertList:hover .expertImg, .Overseas:hover .expImgPhone {
+    opacity: 0.3;
+    transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari and Chrome */
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+  }
+  .expertList:hover .expertDetails, .Overseas:hover .expertDetails {
+    opacity: 1;
+    color: white;
+  }
+
+  /* 专家列表的hover事件 */
+  .medicalAdvtg {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  .medicalAdvtg1 {
+    top: 26px;
+    padding: 6.5% 15% 1%;
+  }
+  .percentNum {
+    right: 10%;
+  }
+  .medicalAdvtg2-div {
+    height: 410px;
+  }
+  .circle1 {
+    top: 15%;
+  }
+  .circle2 {
+    top: 50%;
+  }
+  .circle3 {
+    top: 55%;
+  }
+  .circle  span {
+    font-size: 1.3em;
+  }
+  .circ-Title {
+    font-size: 1.7em;
+  }
+  .Treatment {
+    font-size: 1.2em;
+  }
+  .num2, .num4, .num6, .num8{
+  left: -15px;
+  top: -15px;
+}
+}
+
+/* 大于768px-end */
+
+/* 小于768px*/
+@media (max-width:768px) {
+  .intro {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 1.8em;
+    padding: 1.5% 0;
+    width: 30%;
+  }
+  .eMainTitle {
+    font-size: 1.8em;
+  }
+  .treatmentAdvice {
+  border-top: 2px solid #017f4f;
+}
+.e-main-title {
+  margin-bottom: 1%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);/* IE 9 */
+  -webkit-transform: translate(0, -50%); /* Safari and Chrome */
+}
+  .img-text {
+    font-size: 1.4em;
+    white-space: pre-line;
+  }
+  .imgText-title {
+    margin: 0 0 1px;
+    text-align: left;
+  }
+  .imgText-info {
+    min-height: 30px;
+    padding-left: 0;
+    text-align: left;
+  }
+  .text-algn {
+    margin-top: 1%;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .expertList-1 {
+    display: block;
+  }
+  .expertExamp {
+    margin-top: 2%;
+  }
+  .expertExamp-Ep1 {
+    display: none;
+  }
+  .expertExamp-Ep2 img {
+    width: 100%;
+  }
+  .expertInfo {
+    display: none;
+  }
+  .expertList {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    cursor: auto;
+    margin-bottom: 5px;
+  }
+  .Overseas {
+    max-height: 150px;
+    padding: 2% 0;
+    cursor:auto; 
+  }
+  .Overseas .expertDetails {
+    margin-top: 2%;
+  }
+  .expertImg {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    margin: 0;
+    left: 1%;
+    width: 18%;
+    border-radius: 100%;
+    border: 3px solid #017f4f;
+  }
+  .expImgPhone {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .expertImg img {
+    width: 100%;
+    margin: 0;
+  }
+  .expertDetails {
+    margin-top: 0;
+    opacity: 1;
+    position: absolute;
+    z-index: 8;
+    top: -5px;
+    left: 14%;
+    right: 0;
+    text-align: left;
+  }
+  .delDisplay {
+    position: static;
+  }
+  .Ename {
+    display: block;
+    font-weight: 400;
+    padding: .4% 7%;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+    color: white;
+    background-color: #017f4f;
+  }
+  .Einfo {
+    padding-left: 7%;
+    margin-top: 2%;
+    white-space: pre-line;
+    font-size: 1.3em;
+  }
+  .medicalAdvtg {
+    font-size: 1em;
+    margin-top: 1.5%;
+    letter-spacing: -.5px;
+  }
+  .medcAdvtg {
+    height: 50px;
+  }
+  .medicalAdvtg1 {
+    padding: 6.5% 15% 1%;
+  }
+  .percent {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .percentNum {
+    right: 25%;
+  }
+
+  /* .medicalAdvtg2-div {
+   height: 667px;
+  }*/
+  .circle1 {
+    top: 14%;
+    left: 30%;
+    width: 43%;
+  }
+  .circle2 {
+    top: 53%;
+    left: 6%;
+  }
+  .circle3 {
+    top: 57%;
+  }
+  .circle  span {
+    font-size: 1em;
+  }
+  .circ-Title {
+    font-size: 1.4em;
+  }
+  .medicalAdvtg2 {
+    font-size: 1.6em;
+    padding: 1.5% 15%;
+  }
+  .TreatmentAfter{
+  height: 300px;
+  margin-top: 3%;
+}
+  .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8 {
+  position: absolute;
+  width: 47%;
+  padding: 20px 1% 1%;
+}
+.num2, .num4, .num6, .num8{
+  right: -15px;
+  bottom: -15px;
+}
+  .div1 {
+  top: 0;
+  left: 0;
+  height: 115px;
+}
+.div2 {
+  top: -25px;
+    padding-top: 10%;
+    left: 50%;
+    height: 140px;
+}
+.div3 {
+  top: 130px;
+  left: 0;
+  height: 74px;
+}
+.div4 {
+  top: 130px;
+  left: 50%;
+  height: 94px;
+}
+.div5 {
+  top: 219px;
+  left: 0;
+  height: 114px;
+}
+.div6 {
+  top: 239px;
+  left: 50%;
+  height: 54px;
+}
+.div7 {
+  top: 348px;
+  left: 0;
+  height: 94px;
+}
+.div8 {
+  top: 308px;
+  left: 50%;
+  height: 190px;
+}
+ .div9, .div10, .div11{
+  width: 100%;
+  height: 80px;
+ }
+ .div9{
+  top: 0;
+  left: 0;
+ }
+.div10{
+left: 0;
+top: 95px;
+}
+.div11{
+left: 0;
+top: 190px;
+}
+}
+
+/* 小于768px-end */
+
+/* 专家医疗意见

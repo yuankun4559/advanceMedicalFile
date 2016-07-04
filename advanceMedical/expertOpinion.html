@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>expertOpinion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="js/Swiper-3.3.1/css/swiper.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/expertOpinion.css">
+  <link rel="stylesheet" type="text/css" href="css/formForPhone.css">
+</head>
+<body>
+<!-- header-start -->
+  <div class="row top">
+  <!-- logo-start -->
+    <div class="col-md-2 col-sm-2 col-xs-12 logo-div">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png">
+      </a>
+    </div>
+  <!-- logo-end -->
+  <!-- 中、大型屏幕菜单栏>768px,start -->
+    <div class="col-sm-offset-4 col-md-6 col-sm-6 top-rt">
+      <div class="row">
+        <ul class="col-sm-12 pull-right nav-main">
+          <li class="nav-1">
+            <a href="expertOpinion.html" class="col-sm-8 nav-lt1" id="nav-lt1">
+              <span class="nav-back nav-back1"></span>
+              <span class="nav-text">专家医疗意见</span>
+            </a>
+            <span class="col-sm-2 nav-rt nav-rt1 pull-right"></span>
+          </li>
+          <li class="nav-2">
+            <a href="pressureManagement.html" class="col-sm-offset-2 col-sm-6 nav-lt2" id="nav-lt2">
+              <span class="nav-back nav-back2"></span>
+              <span class="nav-text">压力管理</span>
+            </a>
+            <span class="col-sm-2 nav-rt nav-rt2 pull-right"></span>
+          </li>
+          <li class="nav-3">
+            <a href="" class="col-sm-offset-4 col-sm-4 nav-lt3" id="nav-lt3">
+              <span class="nav-back nav-back3"></span>
+              <span class="nav-text">私人健康顾问</span>
+            </a>
+              <span class="col-sm-4 nav-rt nav-rt3 pull-right"></span>
+          </li>
+          <li class="nav-4">
+            <a href="medicalResource.html" class="col-sm-offset-6 col-sm-2 nav-lt4" id="nav-lt4">
+              <span class="nav-back nav-back4"></span>  
+              <span class="nav-text">医疗资源推荐</span>
+            </a>
+            <span class="col-sm-4 nav-rt nav-rt4 pull-right"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <!-- 中、大型屏幕菜单栏-end -->
+  <!-- 超小屏幕<768px,start -->
+    <div class="row nav-row">
+      <div class="col-xs-12 nav-xs">
+        <a href="expertOpinion.html" class="col-xs-3 nav-xs-1">专家医疗意见</a>
+        <a href="pressureManagement.html" class="col-xs-3 nav-xs-2">压力管理</a>
+        <a href="privateHealth.html" class="col-xs-3 nav-xs-3">私人健康顾问</a>
+        <a href="medicalResource.html" class="col-xs-3 nav-xs-4">医疗资源推荐</a>
+      </div>
+    </div>
+  <!-- 超小屏幕<768px,start -->
+  </div>
+<!-- header-end -->
+<!-- Swiper 顶部轮播头图-start -->   
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/lbt1.jpg"/></div>
+      <div class="swiper-slide"><img src="img/lbt2.jpg"/></div>
+      <div class="swiper-slide"><img src="img/lbt3.jpg"/></div>
+    </div>
+  <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  <!-- 一键咨询 -->
+    <div class="flex-mask">
+      <div class="diagnose">
+        <div class="image-wrapper"><img src="img/diagnose.png" alt=""></div>
+        <div class="diagnose-text">一键咨询</div>
+      </div>
+      <div class="time">
+      <span class="diagnose-time">400&#45;920&#45;2069</span>
+      </div> 
+    </div> 
+  </div>
+<!-- Swiper 顶部轮播头图-end -->
+
+<!-- 一键咨询菜单-start -->
+    <div class="diagnose-mask">
+      <div class="diagnose-backgCont">
+        <div class="form-left">
+          <div class="diagnoseForm">
+            <div class="image-wrapperForm"><img src="img/diagnose.png" alt=""></div>
+            <div class="diagnose-textForm">一键咨询</div>
+          </div>
+        </div>
+        <div class="form-right">
+          <div class="form-right-title">
+            <div class="formRtTitle-left">
+              请先选择您的问诊类别
+              <div class="form-arrow">
+                <img src="img/form-arrow.png">
+              </div>
+            </div>
+            <span class="close diagnoseClose"></span>
+          </div>
+          <div class="diag-btn-div">
+            <div class="diag-div">         
+              <button type="button" class="btn btn-medical btn-expert">专家医疗意见</button>
+              <button type="button" class="btn btn-medical btn-health">私人健康顾问</button>
+              <button type="button" class="btn btn-medical btn-pressure">压力管理</button>
+              <button type="button" class="btn btn-medical btn-resource">医疗资源推荐</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 表单部分 -->
+    <div class="form-mask">
+      <div class="form-backgCont">
+        <div class="formLeft">
+          <div class="navForm">
+            <div class="form-image-wrapper"><img src="img/diagnose.png" alt=""></div>
+            <div class="form-text">一键咨询</div>
+          </div>
+        </div>
+        <div class="form-right">       
+          <div class="diag-btn-div">
+            <!-- 专家医疗意见-start -->
+            <div class="row delMargin">
+              <!-- content-start -->
+              <form class="medical-form form-horizontal" role="form">
+                <span class="close diagClose"></span>
+                <!-- title-start -->
+                <div class="row delMargin formTitle">
+                  <div class="col-xs-4 col-sm-4 col-md-4 delPaddAll option-1">
+                    <div class="form-indi option1">患者信息</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 delPaddAll option-2">
+                    <div class="form-indi option2">申请人信息</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 delPaddAll option-3">
+                    <div class="form-indi option3">描述信息</div>
+                  </div>
+                </div>
+                <!-- title-end -->
+                <!-- 患者信息部分 -->
+                <div class="form-section">
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label for="patientName" class="col-xs-5 col-sm-4 control-label delMargin">患者姓名：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="patientName" name="patientName" placeholder="请输入您的姓名" required />
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option">
+                    <label for="patientBirth" class="col-xs-5 col-sm-4 control-label delMargin">出生日期：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="appliBirth" name="patientBirth" data-field="date" readonly required />
+                      <div class="box-container"><div class="dtBox"></div></div>
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option">
+                    <label for="patientSex" class="col-xs-5 col-sm-4 control-label delMargin">患者性别：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <div class="row delMargin">
+                        <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddAll ">
+                          <div class="patientSex patientSex-M patientSexActive">男</div>
+                        </div>
+                        <div class=col-xs-6 col-sm-6 col-md-6 delMargin delPaddAll">
+                          <div class="patientSex patientSex-F">女</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- 患者信息部分 -->
+                <!-- 申请人信息部分 -->
+                <div class="form-section">
+                  <div class="form-group has-success has-feedback form-option">
+                    <label for="patientSex" class="col-xs-5 col-sm-4 control-label delMargin">是否为患者本人：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <div class="row delMargin">
+                        <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddAll ">
+                          <div class="relaYes patientSexActive relative">是</div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddAll">
+                          <div class="relaNo relative">否</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label class="col-xs-5 col-sm-4 control-label delMargin">与患者关系：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <select id="other-relation" name="other_relation" class="form-control not-mandatory valid" enabled="enabled" disabled>
+                        <option value="0"></option>
+                        <option value="1">父母</option>
+                        <option value="2">子女</option>
+                        <option value="3">配偶</option>
+                        <option value="4">其他</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option">
+                    <label class="col-xs-5 col-sm-4 control-label delMargin">地址（省/海外）：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <div class="row delMargin">
+                        <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddLt">
+                          <select id="province" name="province" class="form-control" style="padding: 0;" required>
+                            <option value="">省</option>
+                          </select>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddAll">
+                          <select id="city" name="city" class="form-control" style="padding: 0;">
+                            <option value="">城市</option>                  
+                          </select>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 delMargin delPaddAll address-details">
+                            <input type="text" class="form-control" id="address-details" name="address_details" placeholder="详细地址">
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label for="appliName" class="col-xs-5 col-sm-4 control-label delMargin">申请人姓名：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="appliName" placeholder="请输入您的姓名" name="appliName" required />
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label for="user-zip" class="col-xs-5 col-sm-4 control-label delMargin">邮编：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="user-zip"  name="user-zip" placeholder="请输入邮政编码" required />
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label for="tellOne" class="col-xs-5 col-sm-4 control-label delMargin">首选电话：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="tellOne" name="tellOne" placeholder="请输入首选电话" required />
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label for="tellTwo" class="col-xs-5 col-sm-4 control-label delMargin">备用电话：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="tellTwo" name="tellTwo" placeholder="请输入备用电话，以便紧急时联系">
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option delMargin">
+                    <label for="E-mail" class="col-xs-5 col-sm-4 control-label delMargin">E-mail地址：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin">
+                      <input type="text" class="form-control" id="E-mail" name="email" placeholder="请输入E-mail地址" required>
+                    </div>
+                  </div>
+                  <div class="form-group has-success has-feedback form-option">
+                    <label for="patientSex" class="col-xs-5 col-sm-4 control-label delMargin preLine">接听电话
+                    优选时间
+                    可多选)：</label>
+                    <div class="col-xs-7 col-sm-8 delMargin timeSelect_index">
+                        <div class="row delMargin">
+                          <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddLt">
+                            <label >
+                              <input type="checkbox" name="user_time" value="9am-12am" class="hideCheckBox"/>
+                              <span class="form-control selectTime">9am-12am</span>
+                            </label>
+                          </div>
+                          <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddRt">
+                             <label >
+                                <input type="checkbox" name="user_time" value="12am-3pm" class="hideCheckBox"/>
+                                <span class="form-control selectTime">12am-3pm</span>
+                              </label>
+                          </div>
+                        </div>
+                        <div class="row delMargin">
+                          <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddLt">
+                            <label>
+                              <input type="checkbox" name="user_time" value="3pm-6pm" class="hideCheckBox "/>
+                              <span class="form-control selectTime">3pm-6pm</span>
+                            </label>
+                          </div>
+                          <div class="col-xs-6 col-sm-6 col-md-6 delMargin delPaddRt">
+                            <label>
+                              <input type="checkbox" name="user_time" value="6pm-9pm" class="hideCheckBox"/>
+                              <span class="form-control selectTime">6pm-9pm</span>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="user-time-error"></div>
+                    </div>
+
+                  </div>
+                  
+                </div>
+                <!-- 申请人信息部分 -->
+                <!-- 描述信息部分 -->
+                <div class="form-section">
+                  <div class="formLastTitle">请简要说明您的病情，并描述你想要从医疗专家意见书中得知什么</div>
+                  <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 ">
+                      <textarea class="form-control info-details" name="info_details"></textarea>
+                    </div>
+                  </div>
+                  <div class="form1-only">
+                    <div class="form-group" id="doctorInfo">
+                      <div class="col-xs-12 col-sm-12 ">
+                        <input type="checkbox" id="doctor-checkbox" name="doctor_checkbox"/>
+                        <label for="doctor-checkbox" class="doctor-checkbox">我当前的治疗医生的信息（选填）</label>
+                      </div>
+                    </div>
+                    <div id="doctor-info">
+                      <div class="form-group has-success has-feedback form-option delMargin">
+                        <label for="appliName" class="col-xs-5 col-sm-4 control-label delMargin">医生姓名：</label>
+                        <div class="col-xs-7 col-sm-8 delMargin">
+                          <input type="text" class="form-control" id="appliName" placeholder="请输入医生姓名">
+                        </div>
+                      </div>
+                      <div class="form-group has-success has-feedback form-option delMargin">
+                        <label for="user-zip" class="col-xs-5 col-sm-4 control-label delMargin">医院：</label>
+                        <div class="col-xs-7 col-sm-8 delMargin">
+                          <input type="text" class="form-control" id="user-zip" placeholder="请输入相应信息">
+                        </div>
+                      </div>
+                      <div class="form-group has-success has-feedback form-option delMargin">
+                        <label for="user-zip" class="col-xs-5 col-sm-4 control-label delMargin">专科：</label>
+                        <div class="col-xs-7 col-sm-8 delMargin">
+                          <input type="text" class="form-control" id="user-zip" placeholder="请输入相应信息">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="LiceAccept">
+                    <input type="checkbox" id="contract-checkbox" name="contract-checkbox" checked required>
+                    <label for="contract-checkbox" class="contract-label">我已阅读并接受<a href="##" class="lince">授权协议</a></label>
+                  </div>
+                  <div class="contract-check-error"></div>
+                  
+                </div>
+                <!-- 描述信息部分 -->
+                <div class="col-xs-12 col-sm-12 formNav clearfix">
+                  <button type="button" class="back-to-home btn  pull-left">返回</button>
+                  <button type="button" class="btnBack  btn btn-navigate pull-left">    上一步</button>
+                  <button type="button" class="btnNext btnNextIndex btn pull-right">下一步</button>
+                  <input type="submit" value="提交" class="btn btnSubmit pull-right">
+                </div>
+
+                <div class="LiceAccept-mask">
+                  <div class="LiceAccept-cont">
+                    <div class="LiceAccept-cont-header">
+                      授权协议<span class="close lincesClose" id=""></span>
+                    </div>
+                    <div class="LiceAccept-cont-text">
+                      <div class="lince">
+                        <p>在开始医疗专家意见书服务之前，您必须阅读，理解并同意以下条款和条件。</p> <p>1、您在此授权您的治疗医师和其他医疗服务提供者将所有相关的个人和医疗数据披露给高级医疗公司，用于获得第二个意见，并授予高级医疗公司，许可其按在我们的隐私声明中所描述方式使用和披露这一信息。如果需要，您将为每个医师或其他医疗服务提供者签署单独的授权表，允许他们与我们分享保护的健康信息。您同意，您提供给我们的信息尽您所知将是准确和完整的。您有责任确保所有相关资料已提供给高级医疗公司。</p>  
+                        <p>2、该报告是关于您的案件的医疗专家的意见，这基于您提供给我们的，以及我们经您许可，从您的医生获得的医疗信息。润色医疗专家意见报告的医生，不会获得亲自为您检查，订购额外的测试，或者获取超出您所提供的信息之外的任何信息的利益。由于医学专家将没有亲自检查您，或订购额外的测试，它不属于医疗诊断。通过医疗专家意见书项目的医学专家，不会并不能仅基于我们收到的信息，为您的医疗负责。医疗决策应在亲自检查和诊断测试之后做出，如您的检查和病史所示。该报告旨在为您提供信息来补充您已经从您的治疗医生那里获得的信息。医疗专家意见报告中包含的信息不得用于替代您的医生的建议。您应该与自己的、负责您的医疗的医生讨论此报告。</p>
+                        <p>3、您确认，您的健康保险可能不包括建议在医疗专家意见报告中推荐的特定测试或治疗，因为涵盖范围取决于您的健康保险条款。高级医疗公司和医疗专家不会为您的健康保险决定健康福利涵盖范围的决定。请参考您的保险公司，以核实涵盖范围和预授权处理。</p>
+                        <p>4、为了给您进行服务，高级医疗公司将从您和您的医疗服务提供者收集您的医疗信息，并转交给我们在美国的办公室，或其他的高级医疗公司办公室。可应要求提供涉及您的案件中涉及的个人和国家的详细信息。</p>
+                        <p>5、如果申请人不是病人或病人的代表，我们需要患者的书面授权，才能披露其任何医疗或个人识别数据。</p>
+                        <p>本人保证上述信息尽我所知是准确的。我已阅读并理解了上述信息，并同意这些条款。</p>
+                        <p>我保证医疗专家意见书的参与者是公司的员工，或其合格的配偶，或公司的员工的家庭伴侣，或公司员工的有资格的、受抚养的子女。</p>
+                      </div>
+                    </div>
+                  </div>    
+                </div>
+                <div class="form-feedback-wrapper form-feedback-wrapper-index">
+                  <div class="form-feedback">
+                    <p class="form-feedback-p">递交成功，我们将会尽快联系您。</p>
+                    <a class="btn form-feedback-btn" href="index.html">我知道了</a>
+                  </div>
+                </div>
+              </form>
+              <!-- content-end -->
+            </div>
+            <!-- 专家医疗意见-end -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 一键咨询菜单-end -->
+
+
+<!-- phoneSwiper-start- -->
+  <div class="phoneSwiper">
+    <img src="img/lbt1.jpg">
+  </div>
+  <!--遮罩层-->
+    <div class="backg">
+      <div class="col-xs-12 col-sm-12 delPaddAll backgCont">
+        <div class="col-xs-12 col-sm-12 delPaddAll selectType">
+          选择咨询类别
+          <span class="close"></span>
+        </div>
+        <div class="col-xs-12 col-sm-12 delPaddAll">
+          <div class="phoneDiag1 col-xs-6 col-sm-6 col-md-6 delPaddAll">
+            <a href="formForPhone.html#advice" type="button" class="">专家医疗意见</a>
+          </div>
+          <div class="phoneDiag2 col-xs-6 col-sm-6 col-md-6 delPaddAll">
+            <a href="formForPhone.html#private" type="button" class="">私人健康顾问</a>
+          </div>
+          <div class="phoneDiag3 col-xs-6 col-sm-6 col-md-6 delPaddAll">
+            <a href="formForPhone.html#pressure" type="button" class="">压力管理</a>
+          </div>
+          <div class="phoneDiag4 col-xs-6 col-sm-6 col-md-6 delPaddAll">
+            <a href="formForPhone.html#medical" type="button" class="">医疗资源推荐</a>
+          </div>           
+        </div>
+      </div>
+    </div>
+  <!--遮罩层-->
+<!-- phoneSwiper-end- -->
+<!-- phone-diagnose-start -->
+  <div class="phone-diagnose">
+    <div class="diagnose-btn">一键咨询</div>
+  </div>
+<!-- phone-diagnose-end -->
+  
+  <div class="container e-maincontent">
+  <!-- 医疗意见-start -->
+    <div class="">
+      <div class="intro" id="nav1-1">
+        <span>诊疗意见</span>
+      </div>
+    <!-- 权威意见报告-start -->
+      <div class="row treatmentAdvice">
+        <div class="e-main-title">
+          <span class="eMainTitle">国际权威专家意见报告</span>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="col-xs-3 col-sm-12 img-div">
+                  <img src="img/treatmentAd1.png" alt="waiting">
+                </div>
+                <div class="col-xs-9 col-sm-12 imgText-div">
+                  <span class="imgText-title">经验丰富专案医生</span>
+                  <span class="imgText-info">行医执照严格筛选
+                  平均执业10年以上</span>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="col-xs-3 col-sm-12 img-div">
+                  <img src="img/treatmentAd2.png" alt="waiting">
+                </div>
+                <div class="col-xs-9 col-sm-12 imgText-div">
+                  <span class="imgText-title">医学委员会</span>
+                  <span class="imgText-info">全球范围匹配专家</span>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="col-xs-3 col-sm-12 img-div">
+                  <img src="img/treatmentAd3.png" alt="waiting">
+                </div>
+                <div class="col-xs-9 col-sm-12 imgText-div">
+                  <span class="imgText-title">国际顶级专家</span>
+                  <span class="imgText-info">就个案问题针对性
+                  出具书面意见报告</span>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="col-xs-3 col-sm-12 img-div">
+                  <img src="img/treatmentAd4.png" alt="waiting">
+                </div>
+                <div class="col-xs-9 col-sm-12 imgText-div">
+                  <span class="imgText-title">专案医生</span>
+                  <span class="imgText-info">详尽解释，辅助决策，
+                  定期跟进</span>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    <!-- 权威意见报告-end -->
+    </div>
+  <!-- 专家示例 -->
+    <div class="row treatmentAdvice">
+        <div class="e-main-title">
+          <span class="eMainTitle">部分国际权威专科专家示例</span>
+        </div>
+      <!-- >768px时，此处单独显示-start -->
+        <div class="expertExamp-Ep1">
+          <img src="img/expert-opinion01.jpg">
+          <div class="expertEx-Ep1-info">
+            <p class="expertExEp1InfoHd">“影响到你生活的医疗问题，对你和家人来说都是极其重要的。为了你的个人健康与幸福，
+            你应当保证自己找到最好的专家来审阅你的病情个案。”</p>
+            <p class="expertExEp1InfoFt">
+            Theodore I. Steinman, M.D.
+            哈佛大学医学院 临床医学教授
+            Beth Israel Deaconess 医疗中心
+            Brigham&Women's 医院 主任医师</p>
+          </div>
+        </div>
+      <!-- 大于768px时，此处单独显示-end -->
+      <!-- 专家信息显示 -->
+        <div class="expertExamp clearfix">
+          <div class="expertList expertList-1">
+            <div class="expertImg">
+              <img src="img/potrait01.png" alt="waiting">
+            </div>
+            <div class="expertInfo">
+              <span>Theodore I. Steinman,&nbsp;M.D.</span>
+            </div>
+            <div class="expertDetails">
+              <span class="Ename">Theodore I. Steinman,&nbsp;M.D.</span>
+              <span class="Einfo">日内瓦大学医院&nbsp;肿瘤&#8208;哈佛大学医学院&nbsp;临床医学教授
+              Beth&nbsp;Israel&nbsp;Deaconess&nbsp;医疗中心
+              Brigham&amp;Women&apos;s&nbsp;医院&nbsp;主任医师</span>
+            </div>
+          </div>       
+          <div class="expertList">
+            <div class="expertImg">
+              <img src="img/potrait02.png" alt="waiting">
+            </div>
+            <div class="expertInfo">
+              <span>Monica&nbsp;Castiglione&#8208;Gertsch,&nbsp;M.D.</span>
+            </div> 
+            <div class="expertDetails">
+              <span class="Ename">Monica&nbsp;Castiglione&#8208;Gertsch,&nbsp;M.D.</span>
+              <span class="Einfo">日内瓦大学医院&nbsp;肿瘤&#8208;妇科主任，乳腺健康中心主任，Brustzentrum Hirslanden瑞士苏黎世顾问</span>
+            </div>   
+          </div>
+          <div class="expertList">
+            <div class="expertImg">
+              <img src="img/potrait03.png" alt="waiting">
+            </div>
+            <div class="expertInfo">
+              <span>FRANCO&nbsp;M.&nbsp;MUGGIA,&nbsp;M.D.</span>
+            </div>
+            <div class="expertDetails">
+              <span class="Ename">FRANCO&nbsp;M.&nbsp;MUGGIA,&nbsp;M.D.</span>
+              <span class="Einfo">纽约大学医学院Langone医疗中心，Perimutter癌症学院，妇科癌症、乳腺癌、血液与肿瘤科&nbsp;医学教授</span>
+            </div>
+          </div>
+          <div class="expertList">
+            <div class="expertImg">
+              <img src="img/potrait04.png" alt="waiting">
+            </div>
+            <div class="expertInfo">
+              <span>DONALD&nbsp;I.&nbsp;ABRAMS,&nbsp;M.D.</span>
+            </div>
+            <div class="expertDetails">
+              <span class="Ename">DONALD&nbsp;I.&nbsp;ABRAMS,&nbsp;M.D.</span>
+              <span class="Einfo">加州大学旧金山分校&nbsp;医学教授
+              旧金山总医院&nbsp;血液与肿瘤科主任
+              UCSF&nbsp;Osher中心&nbsp;结合医学肿瘤科主任
+              </span>
+            </div>
+          </div>
+          <div class="expertList">
+            <div class="expertImg">
+              <img src="img/potrait05.png" alt="waiting">
+            </div>
+            <div class="expertInfo">
+              <span>ELLIOT&nbsp;S.&nbsp;KRAMES,&nbsp;M.D.</span>
+            </div> 
+            <div class="expertDetails">
+              <span class="Ename">ELLIOT&nbsp;S.&nbsp;KRAMES,&nbsp;M.D.</span>
+              <span class="Einfo">国际神经调控学会&nbsp;名誉董事
+              学会期刊:《神经调控》名誉主编
+              </span>
+            </div>
+          </div>
+          <div class="expertList">
+            <div class="expertImg">
+              <img src="img/potrait06.png" alt="waiting">
+            </div>
+            <div class="expertInfo">
+              <span>陆一鸣,&nbsp;M.D.</span>
+            </div>
+            <div class="expertDetails">
+              <span class="Ename">陆一鸣,&nbsp;M.D.</span>
+              <span class="Einfo">上海交通大学医学院附属瑞金医院
+              教授/主任医师/博士生导师
+              中法生命科学和基因组研究中心主任</span>
+            </div>
+          </div>
+        </div>
+      <!-- 专家信息显示 -->
+      <!-- 医疗优势-start -->
+        <div class="expertExamp expertExamp-hr">
+          <span class="medicalAdvtg ">我们的全球医疗团队包括10,000多名国际权威专科专家
+          选择与您病症相关领域的权威医生是我们专家匹配的首要原则</span>
+        </div>
+      <!-- 医疗优势-end -->
+      <!-- 三个小圆圈-start -->
+        <div class="expertExamp">
+          <div class="col-xs-12 col-sm-5 col-md-4 delPadd" >
+            <div class="medicalAdvtg1-div" ">
+              <div class="medicalAdvtg1">
+                <p class="percent">满意率</p>
+                <span class="percentNum">98%</span>
+                <p class="percentEglsh">Patient satisfaction</p>
+              </div>
+              <div class="medicalAdvtg2">创新服务 卓越品质</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-7 col-md-8 delPadd">
+            <div class="medicalAdvtg2-div">
+              <img src="img/circle.png">
+              <div class="circle circle1">
+                <p class="circ-Title">专业团队</p>
+                <span>业界唯一全部使用执照医生为患者引导完成个案的服务。资深的国际权威专家团队资源</span>
+              </div>
+              <div class="circle circle2">
+                <p class="circ-Title pullRight">计划价值</p>
+                <span>权威专家严谨审阅病历报告之后，提出客观意见，书面回复病人的特定问题。高度私密、个性化的服务</span>
+              </div>
+              <div class="circle circle3">
+                <p class="circ-Title pullRight">用户体验</p>
+                <span>与私人健康顾问无压力地顺畅沟通。经过咨询，获得关键信息，对自身病况及医疗建议十分了
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- 三个小圆圈-end -->
+    </div>
+    <!-- 专家示例 -->
+  <!-- 医疗意见-end -->
+  <!-- 海外诊疗-start -->
+    <div class="">
+      <div class="intro" id="nav1-2">
+        <span>海外治疗</span>
+      </div>
+    <!-- 权威意见报告-start -->
+      <div class="treatmentAdvice">
+        <div class="e-main-title">
+          <span class="eMainTitle">海外诊疗计划</span>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 col-sm-3 col-md-3 delPadd">
+            <div class="teatmtAdviceList">            
+              <div class="img-div">
+                <img src="img/treatmentAd1.png" alt="waiting">
+              </div>
+              <div class="imgText-info text-algn">匹配顶级
+              专科专家
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 delPadd">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="img-div">
+                  <img src="img/treatmentAd2.png" alt="waiting">
+                </div>
+                <div class="imgText-info text-algn">预约及安排
+                诊疗计划
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 delPadd">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="img-div">
+                  <img src="img/treatmentAd3.png" alt="waiting">
+                </div>
+                <div class="imgText-info text-algn">预估、优化
+                诊疗成本
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 delPadd">
+            <div class="teatmtAdviceList">
+              <div class="row">
+                <div class="img-div">
+                  <img src="img/treatmentAd4.png" alt="waiting">
+                </div>
+                <div class="imgText-info text-algn">专案医生
+                定期跟进
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    <!-- 权威意见报告-end -->
+    </div>
+    <div class="expertExamp-Ep2">
+      <img src="img/expert-opinion02.jpg">         
+    </div>
+    <div class="row treatmentAdvice">
+      <div class="e-main-title">
+        <span class="eMainTitle">海外诊疗计划</span>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 delPadd">
+          <div class=" Overseas">
+            <div class="row">
+              <div class="col-xs-3 col-sm-12 expImgPhone">    
+                <img src="img/arrange01.png" alt="waiting">          
+              </div>
+              <div class="col-xs-9 col-sm-12 expertDetails delDisplay delPadd">
+                <span class="Einfo EinfoFtSz">病人个案建立，
+                私人健康顾问全程跟踪，
+                收集医疗记录数据</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 delPadd">
+          <div class="Overseas">
+            <div class="row">
+              <div class="col-xs-3 col-sm-12 expImgPhone">    
+                <img src="img/arrange02.png" alt="waiting">          
+              </div>
+              <div class="col-xs-9 col-sm-12 expertDetails delDisplay delPadd">
+                <span class="Einfo EinfoFtSz">全球匹配适合专家，
+                并根据客观需要和病人意见
+                锁定诊疗专家</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 delPadd">
+          <div class=" Overseas">
+            <div class="row">
+              <div class="col-xs-3 col-sm-12 expImgPhone">    
+                <img src="img/arrange03.png" alt="waiting">          
+              </div>
+              <div class="col-xs-9 col-sm-12 expertDetails  delDisplay delPadd">
+                <span class="Einfo EinfoFtSz">安排与世界一流
+                诊疗专家约见，给出
+                最优惠的治疗解决方案</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 delPadd">
+          <div class=" Overseas">
+            <div class="row">
+              <div class="col-xs-3 col-sm-12 expImgPhone">    
+                <img src="img/arrange04.png" alt="waiting">          
+              </div>
+              <div class="col-xs-9 col-sm-12 expertDetails  delDisplay delPadd">
+                <span class="Einfo EinfoFtSz">最终确认、
+                安排治疗、后期跟进</span>
+              </div>
+            </div>
+          </div>
+        </div>            
+      </div>
+    </div>
+    <div class="Treatment ">
+      <div class="div1 odd">
+        <div class="num1 odd">1</div>
+        专案医生与病人联络收集病历病史及相关检查资料，并且撰写病案报告。
+      </div>
+      <div class="div2 even">
+        <div class="num2 even">2</div>
+        全球的医学委员会根据病案报告在全球匹配顶尖的专家，并且获得他们的日程安排。
+      </div>
+      <div class="div3 odd">
+        <div class="num3 odd">3</div>
+        专家医生与病人联络，协调安排就诊预约。
+      </div>
+      <div class="div4 even">
+        <div class="num4 even">4</div>
+        相关专科专家出具治疗方案意见以及治疗费用建议。
+      </div>
+      <div class="div5 odd">
+        <div class="num5 odd">5</div>
+        专案医生将方案的信息与病人做详尽讲解和沟通，取得病人书面确认。
+      </div>
+      <div class="div6 even">
+        <div class="num6 even">6</div>
+        病人支付定金。
+      </div>
+      <div class="div7 odd">
+        <div class="num7 odd">7</div>
+        汇医将与相关的医疗服务机构协商，优化整体治疗的费用。
+      </div>
+      <div class="div8 even">
+        <div class="num8 even">8</div>
+        确保治疗开始，专案管理医生监督诊疗的执行，并随时提供专家审阅和负责其他转诊。医疗记录将以私人密件形式加以收录归档，以供专业医疗审计与专案管理报告的撰写。
+      </div>
+    </div>
+    <div class="row treatmentAdvice">
+      <div class="e-main-title">
+        <span class="eMainTitle">疗程之后</span>
+      </div>
+      <div class="TreatmentAfter " >
+        <div class="div9 odd">
+          <div class="num9 odd">9</div>
+          专案医生与病人联络收集病历病史及相关检查资料，并且撰写病案报告。
+        </div>
+        <div class="div10 even">
+          <div class="num10 even">10</div>
+          全球的医学委员会根据病案报告在全球匹配顶尖的专家，并且获得他们的日程安排。
+        </div>
+        <div class="div11 odd">
+          <div class="num11 odd">11</div>
+          专家医生与病人联络，协调安排就诊预约。
+        </div>
+      </div>
+    </div>
+  <!-- 海外诊疗-end -->
+  </div>
+
+
+  <!-- footer-start -->
+  <div class="row footRow">
+    <div class="col-xs-12 col-sm-2 col-md-2 navDiv">
+      <a href="expertOpinion.html#nav1-1" class="footer-nav">诊疗意见</a>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 navDiv">
+      <a href="expertOpinion.html#nav1-2" class="footer-nav">海外治疗</a>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 navDiv">
+      <a href="pressureManagement.html#nav2-1" class="footer-nav">专属心理和职业教练疏导</a>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 navDiv">
+      <a href="privateHealth.html#nav3-1" class="footer-nav">体检数据解读</a>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 navDiv">
+      <a href="privateHealth.html#nav3-2" class="footer-nav">亚健康/慢病管理</a>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 navDiv">
+      <a href="medicalResource.html#nav4-1" class="footer-nav">医生推荐和医疗机构导航</a>
+    </div>
+  </div>
+  <div class="row footEnd">
+  汇医健康顾问门户网站所提供的服务旨在向用户提供医疗咨询。在任何情况下，这些咨询服务仅应被视为医疗咨询的建议。而这些医疗咨询的建议是根据客户提供的医疗信息所做出的，并不能取代专业医疗机构的医疗诊断。
+  </div>
+  <!-- footer-end -->
+<script src="js/Swiper-3.3.1/js/swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    loop:true
+  });
+</script> 
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/jquery.city.select.min.js"></script>
+<script src="css/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<script src="js/DateTimePicker.js"></script>
+<script src="js/DatetimePicker-i18n-zh-CN.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>   
+</body>
+</html>
