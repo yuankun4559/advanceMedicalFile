@@ -1,0 +1,42 @@
+@charset "utf-8";/*声明css文档类型属性为 UTF-8编码*/
+body{
+	padding-top: 50px;
+}
+.carousel{
+	height: 500px;
+	margin-bottom: 60px;
+}
+.carousel .item{
+	height: 500px;
+}
+.carousel .item img{
+	width: 100%;
+}
+#text-align .col-md-4{
+	text-align: center;
+}
+.img-text{
+	padding: 30px 0;
+}
+.feature-heading{
+	margin-top: 120px;
+	font-size: 50px;
+    color: #2a6496;
+}
+.feature-heading .text-muted{
+	color: #999;
+	font-size: 28px;
+}
+.lead {
+    margin-bottom: 20px;
+    font-size: 21px
+    font-weight: 200;
+    line-height: 1.4;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+}
+.tab-content{
+	padding: 30px 0;
+}
